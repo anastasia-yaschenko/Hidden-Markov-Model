@@ -1,2 +1,1 @@
-# Hidden-Markov-Model-
-Using Hidden Markov Model to predict stock returns
+# Hidden Markov Model for predition of stock returns
