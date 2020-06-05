@@ -1,6 +1,3 @@
-wd<-'/Users/Dell/Desktop/coursework/Stonks-2'
-setwd(wd)
-list.files(wd)
 library(pracma)
 library(data.table)
 day<-fread('AMZN_day.csv')
