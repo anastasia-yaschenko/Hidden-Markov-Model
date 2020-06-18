@@ -1,8 +1,0 @@
-library(pracma)
-library(data.table)
-day<-fread('AMZN_day.csv')
-day$return<-(day$Close-shift(day$Close,1))
-day<-day[-1,]
-period<-day[c(seq(1,700,by=1)),]
-hurstexp(period$return,d=100)
-day
